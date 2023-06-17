@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Vineet's PortFolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="#">Contact Me</a>
+                        <ul id="drop-down">
+                            <li><a href=mailto:"gvineet59@gmail.com" target="_blank">
+                                <i class="fa-solid fa-envelope"></i>E-mail</a></li>
+                            <li><a href="https://www.linkedin.com/in/vineet-gupta-857a161a8/" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>Linkedin</a></li>
+                            <li><a href="https://www.instagram.com/vineet_foruh/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                            <li><a href="https://github.com/vinparabyte" target="_blank">
+                                <i class="fa-brands fa-github"></i>GitHub</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first-section">
+            <div class="left-section">
+                Hi, My name is<span class="purple"> Vineet</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <form action="https://github.com/vinparabyte" target="_blank">
+                        <button class="btn">Visit Github</button>
+                    </form>
+                    <form action="https://drive.google.com/file/d/1XtglRmhzoSi2W8BxOslyvapUbkfoFs8O/view?usp=drive_link" target="_blank">
+                    <button class="btn">Download Resume</button>
+                    </form>
+                </div>
+            </div>
+            <div class="right-section">
+                <img src="bg.png" alt="Image">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="second-section">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Academics</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="dev.png" alt="">
+                    <div class="vertical-title">
+                        10th(2015-2016)
+                    </div>
+                    <div class="vertical-desc">
+                        I have completed my 10th in 2016 from CBSE board in New Delhi. and obtained 71.3%.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="dev.png" alt="">
+                    <div class="vertical-title">
+                        12th(2018-2019)
+                    </div>
+                    <div class="vertical-desc">
+                        I have completed my 12th from Science Branch in 2019 from CBSE Board in New Delhi, and obtanied 65%.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="dev.png" alt="">
+                    <div class="vertical-title">
+                        B.TECH CSE(2019-2023) 
+                    </div>
+                    <div class="vertical-desc">
+                        I joined Galgotias University in 2019 to pursue my Dream of becoming a Software Developer. I joined in B.TECH CSE and completed
+                        my degree in 2023 with 7.5CGPA.
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Vineet's Developer PortFolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; vineetportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Software Developer','SQL And DBMS Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
